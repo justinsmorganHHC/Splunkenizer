@@ -6,7 +6,7 @@ general:
   start_ip: 172.16.1.100
 
 os:
-#  time_zone: "Europe/Zurich"
+#  time_zone: "America/New York"
 
 virtualbox:
 #  box: "centos/7" # Default

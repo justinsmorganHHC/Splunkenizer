@@ -30,7 +30,7 @@ virtualbox:
 # Operating System definitions
 os:
   # The timezone defaults to the vagrant host timezone, but you can set another one here
-  time_zone: "Europe/Zurich"
+  time_zone: "America/New York"
   # Install additional packages
   packages:
     - unzip
