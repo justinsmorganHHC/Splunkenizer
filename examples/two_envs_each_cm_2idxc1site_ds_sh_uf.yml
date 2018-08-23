@@ -19,14 +19,14 @@ splunk_defaults:
 # Splunk general settings
 splunk_environments:
   - splunk_env_name: splk1
-#  splunk_version: '6.5.7'
+#  splunk_version: '7.1.2'
 #    splunk_admin_password: 'splunklab'
 #    splunk_indexes:
 #      - test1
 #      - test2
 
   - splunk_env_name: splk2
-#  splunk_version: '6.5.7'
+#  splunk_version: '7.1.2'
 #    splunk_admin_password: 'splunklab'
 #    splunk_indexes:
 #      - test1
