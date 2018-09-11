@@ -1,0 +1,4 @@
+---
+splunk_search_peer_list:
+  idxcluster:
+    idxc1: cm
