@@ -1,0 +1,81 @@
+---
+# splunk_config.yml
+
+# General settings
+general:
+  start_ip: 172.16.1.100
+
+os:
+time_zone: "UTC"
+
+virtualbox:
+
+# Splunk default settings
+splunk_defaults:
+  splunk_license_file: Splunk_Enterprise.lic
+
+# Indexer Cluster settings
+#splunk_idxclusters:
+#  - idxc_name: idxc1
+#    idxc_password: splunkidxc
+#    idxc_replication_port: 9887
+#    idxc_rf: 2
+#    idxc_sf: 1
+
+# Splunk hosts with its settings
+splunk_hosts:
+  # Cluster Master
+  #- name: cm
+  #  roles:
+  #    - cluster_master
+  #    - deployment_server
+  #    - monitoring_console
+  #    - license_master
+   # idxcluster: idxc1
+
+  # Indexer
+ # - name: idx1
+ #   roles:
+ #     - indexer
+ #   idxcluster: idxc1
+
+  # Indexer
+  #- name: idx2
+  #  roles:
+  #    - indexer
+  #  idxcluster: idxc1
+
+  # Single Search Head
+  - name: sh
+    roles:
+      - search_head
+
+  # Universal Forwarder
+  #- name: uf1
+  #  roles:
+  #    - universal_forwarder
+
+  # Universal Forwarder
+  #- name: uf2
+  #  roles:
+  #    - universal_forwarder
+
+  # Universal Forwarder
+  #- name: uf3
+  #  roles:
+  #    - universal_forwarder
+
+  # Universal Forwarder
+  #- name: uf4
+  #  roles:
+  #    - universal_forwarder
+
+  # Universal Forwarder
+  #- name: uf5
+  #  roles:
+  #    - universal_forwarder
+
+  # Universal Forwarder
+  #- name: uf6
+  #  roles:
+  #    - universal_forwarder
